@@ -34,7 +34,7 @@ input {
     margin:20px 10px 10px 0px;
 }
 
-#btn_nome {
+#btn_nome, #btn_idade {
     border: 1px solid #000;
     border-radius: 10px;
     padding: 10px;
@@ -45,11 +45,7 @@ input {
     cursor: pointer;
 }
 
-#btn_nome:hover {
+#btn_nome:hover, #btn_idade:hover {
     opacity: .8;
 }
 
-#btn_nome:active {
-    display: relative;
-    top: 2px;
-}
